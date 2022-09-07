@@ -1,10 +1,5 @@
 <template>
-  <h1>Data Lyon</h1>
-  <NuxtLink to="/pluviometrie">
-    Pluviométrie
-  </NuxtLink>
+  <div>
+    <h1>Data Lyon</h1>
+  </div>
 </template>
-
-<script>
-
-</script>
