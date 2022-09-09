@@ -3,9 +3,7 @@
     :header="data.type"
     :title="data.title"
     :description="data.description"
-    :imageUrl="data.imageUrl"
   >
-    <h2>Aperçu de la rando</h2>
     <ContentRenderer :value="data" />
   </ContentFrame>
 </template>
