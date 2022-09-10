@@ -20,7 +20,3 @@
     </main>
   </div>
 </template>
-
-<script setup>
-  console.log('heeeey')
-</script>
