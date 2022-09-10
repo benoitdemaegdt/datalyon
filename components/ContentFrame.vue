@@ -71,7 +71,7 @@
       <div class="text-lg max-w-prose mx-auto">
         <h1>
           <span
-            class="block text-base text-center text-emerald-600 font-semibold tracking-wide uppercase"
+            class="block text-base text-center text-amber-600 font-semibold tracking-wide uppercase"
             >{{ header }}</span
           >
           <span
@@ -83,7 +83,7 @@
           {{ description }}
         </p>
       </div>
-      <div class="mt-6 prose prose-emerald prose-lg text-gray-500 mx-auto">
+      <div class="mt-6 prose prose-amber prose-lg text-gray-500 mx-auto">
         <img v-if="imageUrl" class="w-full rounded-lg" :src="imageUrl" width="1310" height="873" />
         <slot></slot>
       </div>
